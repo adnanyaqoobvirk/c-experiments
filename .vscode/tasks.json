@@ -1,0 +1,13 @@
+{
+    "version": "0.1.0",
+    "tasks": [
+        {
+            "taskName":"hello_world",
+            "command": "gcc",
+            "isShellCommand": true,
+            "args": ["-g","syntax_learning/hello_world.c"],
+            "showOutput": "always",
+            "isBuildCommand": true
+        }
+    ]
+}
